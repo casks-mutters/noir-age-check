@@ -1,0 +1,13 @@
+# Noir / Nargo build artifacts
+target/
+build/
+.proofs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.log
