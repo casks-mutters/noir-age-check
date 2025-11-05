@@ -26,7 +26,16 @@ Repository structure
 • Nargo.toml — Noir project manifest
 • src/main.nr — Circuit: asserts that age ≥ 18 and returns a public boolean
 • .gitignore — Ignores build outputs
-• LICENSE — MIT
+
+FAQ
+What is Noir?
+Noir is a domain-specific language for writing zero-knowledge circuits with a great developer experience.
+
+What does this repo prove?
+It proves privately that a secret age value is at least 18, exposing only a public boolean output true.
+
+How can dapps use the proof?
+Dapps can request a proof from the user and verify it on-chain or off-chain to gate features without revealing the user’s exact age.
 
 Roadmap
 1) v0.2: Add example inputs file and a simple script outline for CLI usage.
