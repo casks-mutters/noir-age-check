@@ -1,0 +1,9 @@
+# Nargo.toml
+
+[package]
+name = "noir-age-check"
+type = "bin"
+authors = ["casks-mutters"]
+version = "0.1.0"
+
+[dependencies]
